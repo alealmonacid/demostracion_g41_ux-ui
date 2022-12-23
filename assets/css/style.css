@@ -1,0 +1,50 @@
+:root{
+    --bg--pokemon:rgb(213, 213, 16);
+    --bg--newsletter:rgb(12, 12, 144);
+    --color--titulo: black;
+    --color--subtitulo:rgb(137, 137, 137);
+    --color--texto:rgb(55, 55, 55);
+    --color-span:rgb(134, 3, 3);
+}
+
+.bg-navbar{
+    background-color: var(--bg--pokemon);
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--color--titulo);
+}
+p{
+    color:var(--color--texto);
+}
+span{
+    color: var(--color-span);
+}
+.bg-newsletter{
+    background-color: var(--bg--newsletter);
+}
+
+.form-control, .input-group-text{
+    height: 40px;
+}
+.inputNewsletter{
+    align-items: center;
+}
+.input-group-text{
+    cursor: pointer;
+}
+.widgetWhatsapp .widget{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 4rem;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
